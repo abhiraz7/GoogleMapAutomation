@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="669.977" tests="7" errors="0" skipped="2" failures="5">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\GS12\Documents\GitHub\Google-Maps-Simulation\target\test-classes;C:\Users\GS12\Documents\GitHub\Google-Maps-Simulation\target\classes;C:\Users\GS12\.m2\repository\org\testng\testng\6.9.10\testng-6.9.10.jar;C:\Users\GS12\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\GS12\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\GS12\.m2\repository\io\appium\java-client\7.0.0\java-client-7.0.0.jar;C:\Users\GS12\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\GS12\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\GS12\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\GS12\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\GS12\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\GS12\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\GS12\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\GS12\.m2\repository\cglib\cglib\3.2.8\cglib-3.2.8.jar;C:\Users\GS12\.m2\repository\org\ow2\asm\asm\6.2.1\asm-6.2.1.jar;C:\Users\GS12\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\GS12\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\GS12\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\GS12\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\GS12\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\GS12\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\GS12\.m2\repository\org\apache\commons\commons-lang3\3.8\commons-lang3-3.8.jar;C:\Users\GS12\.m2\repository\org\springframework\spring-context\5.1.0.RELEASE\spring-context-5.1.0.RELEASE.jar;C:\Users\GS12\.m2\repository\org\springframework\spring-aop\5.1.0.RELEASE\spring-aop-5.1.0.RELEASE.jar;C:\Users\GS12\.m2\repository\org\springframework\spring-beans\5.1.0.RELEASE\spring-beans-5.1.0.RELEASE.jar;C:\Users\GS12\.m2\repository\org\springframework\spring-core\5.1.0.RELEASE\spring-core-5.1.0.RELEASE.jar;C:\Users\GS12\.m2\repository\org\springframework\spring-jcl\5.1.0.RELEASE\spring-jcl-5.1.0.RELEASE.jar;C:\Users\GS12\.m2\repository\org\springframework\spring-expression\5.1.0.RELEASE\spring-expression-5.1.0.RELEASE.jar;C:\Users\GS12\.m2\repository\org\aspectj\aspectjweaver\1.9.1\aspectjweaver-1.9.1.jar;C:\Users\GS12\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\GS12\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\GS12\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\GS12\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\GS12\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\GS12\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\GS12\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\GS12\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\GS12\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\GS12\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\GS12\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\GS12\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\GS12\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\GS12\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\GS12\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\GS12\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\GS12\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\GS12\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\GS12\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\GS12\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\GS12\.m2\repository\com\browserstack\browserstack-local-java\1.0.3\browserstack-local-java-1.0.3.jar;C:\Users\GS12\.m2\repository\org\json\json\20160212\json-20160212.jar;C:\Users\GS12\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\GS12\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\GS12\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\GS12\.m2\repository\org\jboss\aerogear\aerogear-otp-java\1.0.0\aerogear-otp-java-1.0.0.jar;C:\Users\GS12\.m2\repository\org\apache\commons\commons-csv\1.6\commons-csv-1.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="os.name" value="Windows Server 2016"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\GS12\AppData\Local\Temp\3\surefire4661386597928026921\surefirebooter4599108579491799243.jar C:\Users\GS12\AppData\Local\Temp\3\surefire4661386597928026921 2023-04-17T12-09-31_314-jvmRun1 surefire16214644772754245807tmp surefire_0980947028437376540tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\GS12\Documents\GitHub\Google-Maps-Simulation\target\test-classes;C:\Users\GS12\Documents\GitHub\Google-Maps-Simulation\target\classes;C:\Users\GS12\.m2\repository\org\testng\testng\6.9.10\testng-6.9.10.jar;C:\Users\GS12\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\GS12\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\GS12\.m2\repository\io\appium\java-client\7.0.0\java-client-7.0.0.jar;C:\Users\GS12\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\GS12\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\GS12\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\GS12\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\GS12\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\GS12\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\GS12\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\GS12\.m2\repository\cglib\cglib\3.2.8\cglib-3.2.8.jar;C:\Users\GS12\.m2\repository\org\ow2\asm\asm\6.2.1\asm-6.2.1.jar;C:\Users\GS12\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\GS12\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\GS12\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\GS12\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\GS12\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\GS12\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\GS12\.m2\repository\org\apache\commons\commons-lang3\3.8\commons-lang3-3.8.jar;C:\Users\GS12\.m2\repository\org\springframework\spring-context\5.1.0.RELEASE\spring-context-5.1.0.RELEASE.jar;C:\Users\GS12\.m2\repository\org\springframework\spring-aop\5.1.0.RELEASE\spring-aop-5.1.0.RELEASE.jar;C:\Users\GS12\.m2\repository\org\springframework\spring-beans\5.1.0.RELEASE\spring-beans-5.1.0.RELEASE.jar;C:\Users\GS12\.m2\repository\org\springframework\spring-core\5.1.0.RELEASE\spring-core-5.1.0.RELEASE.jar;C:\Users\GS12\.m2\repository\org\springframework\spring-jcl\5.1.0.RELEASE\spring-jcl-5.1.0.RELEASE.jar;C:\Users\GS12\.m2\repository\org\springframework\spring-expression\5.1.0.RELEASE\spring-expression-5.1.0.RELEASE.jar;C:\Users\GS12\.m2\repository\org\aspectj\aspectjweaver\1.9.1\aspectjweaver-1.9.1.jar;C:\Users\GS12\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\GS12\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\GS12\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\GS12\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\GS12\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\GS12\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\GS12\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\GS12\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\GS12\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\GS12\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\GS12\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\GS12\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\GS12\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\GS12\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\GS12\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\GS12\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\GS12\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\GS12\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\GS12\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\GS12\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\GS12\.m2\repository\com\browserstack\browserstack-local-java\1.0.3\browserstack-local-java-1.0.3.jar;C:\Users\GS12\.m2\repository\org\json\json\20160212\json-20160212.jar;C:\Users\GS12\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\GS12\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\GS12\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\GS12\.m2\repository\org\jboss\aerogear\aerogear-otp-java\1.0.0\aerogear-otp-java-1.0.0.jar;C:\Users\GS12\.m2\repository\org\apache\commons\commons-csv\1.6\commons-csv-1.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\GS12"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.4.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\GS12\Documents\GitHub\Google-Maps-Simulation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\GS12\AppData\Local\Temp\3\surefire4661386597928026921\surefirebooter4599108579491799243.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="user.name" value="GS12"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\GS12\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\GS12\AppData\Local\Temp\3\"/>
+    <property name="java.version" value="17.0.4.1"/>
+    <property name="user.dir" value="C:\Users\GS12\Documents\GitHub\Google-Maps-Simulation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python\Scripts\;C:\Python\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-17.0.4.1\bin;C:\Om\Setup_files\Java\Java_8\jdk\bin;C:\Om\Setup_files\Java\Java_11\jdk\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\InfluxData\influxdb\influxdb-1.8.10-1;C:\Users\GS12\Documents\gatling-charts-highcharts-bundle-3.9.0-bundle\gatling-charts-highcharts-bundle-3.9.0\bin;C:\Users\GS12\Documents\scala3-3.2.2\bin;C:\Users\GS12\AppData\Local\Microsoft\WindowsApps;C:\Users\GS12\AppData\Local\GitHubDesktop\bin;C:\Users\GS12\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-17.0.4.1\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="test" classname="com.browserstack.run_first_test.FirstTest" time="666.816">
+    <failure message="Expected condition failed: waiting for com.browserstack.run_first_test.FirstTest$2@5af8bb51 (tried for 10 second(s) with 300 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;VPL-RDS01&apos;, ip: &apos;192.168.1.26&apos;, os.name: &apos;Windows Server 2016&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for com.browserstack.run_first_test.FirstTest$2@5af8bb51 (tried for 10 second(s) with 300 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VPL-RDS01', ip: '192.168.1.26', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: driver.version: unknown
+	at com.browserstack.run_first_test.FirstTest.GetElement(FirstTest.java:406)
+	at com.browserstack.run_first_test.FirstTest.SaveToTimeLine(FirstTest.java:329)
+	at com.browserstack.run_first_test.FirstTest.performTest(FirstTest.java:151)
+	at com.browserstack.run_first_test.FirstTest.test(FirstTest.java:62)
+</failure>
+    <system-out><![CDATA[Location: 38.489429,-123.013857
+Location Not found: Allegro MedSpa of Santa Rosa
+Location: 38.489429,-123.013857
+Location Not found: Law Offices of Marc Francis
+Location: 38.489429,-123.013857
+]]></system-out>
+    <system-err><![CDATA[Apr 17, 2023 12:10:03 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: OSS
+Apr 17, 2023 12:13:42 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: OSS
+Apr 17, 2023 12:15:42 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.browserstack.run_local_test.LocalTest" time="669.363">
+    <failure message="Unable to create a new remote session. Please check the server log for more details. Original error: Invalid username or password (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.09 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;VPL-RDS01&apos;, ip: &apos;192.168.1.26&apos;, os.name: &apos;Windows Server 2016&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;&#10;Driver info: driver.version: AndroidDriver&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;VPL-RDS01&apos;, ip: &apos;192.168.1.26&apos;, os.name: &apos;Windows Server 2016&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: Invalid username or password (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.09 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VPL-RDS01', ip: '192.168.1.26', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: driver.version: AndroidDriver
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VPL-RDS01', ip: '192.168.1.26', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: driver.version: AndroidDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+Invalid username or password (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.09 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VPL-RDS01', ip: '192.168.1.26', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: driver.version: AndroidDriver
+</failure>
+  </testcase>
+  <testcase name="test" classname="com.browserstack.run_local_test.LocalTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.browserstack.run_local_test.LocalTest" time="0">
+    <failure message="Cannot invoke &quot;io.appium.java_client.android.AndroidDriver.quit()&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.quit()" because "this.driver" is null
+</failure>
+  </testcase>
+  <testcase name="setUp" classname="com.browserstack.run_parallel_test.ParallelTest" time="0">
+    <failure message="&#10;Parameter &apos;deviceIndex&apos; is required by @Configuration on method setUp but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Parameter 'deviceIndex' is required by @Configuration on method setUp but has not been marked @Optional or defined
+
+</failure>
+  </testcase>
+  <testcase name="test" classname="com.browserstack.run_parallel_test.ParallelTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.browserstack.run_parallel_test.ParallelTest" time="0.001">
+    <failure message="Cannot invoke &quot;io.appium.java_client.android.AndroidDriver.quit()&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.quit()" because "this.driver" is null
+</failure>
+  </testcase>
+</testsuite>

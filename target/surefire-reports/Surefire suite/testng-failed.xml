@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test name="Surefire test">
+    <classes>
+      <class name="com.browserstack.run_first_test.BrowserStackTestNGTest"/>
+      <class name="com.browserstack.run_first_test.FirstTest"/>
+      <class name="com.browserstack.run_local_test.BrowserStackTestNGTest"/>
+      <class name="com.browserstack.run_local_test.LocalTest"/>
+      <class name="com.browserstack.run_parallel_test.BrowserStackTestNGTest"/>
+      <class name="com.browserstack.run_parallel_test.ParallelTest"/>
+    </classes>
+  </test> <!-- Surefire test -->
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="com.browserstack.run_first_test.FirstTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="test"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.browserstack.run_first_test.FirstTest -->
+      <class name="com.browserstack.run_parallel_test.ParallelTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.browserstack.run_parallel_test.ParallelTest -->
+      <class name="com.browserstack.run_local_test.LocalTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.browserstack.run_local_test.LocalTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
